@@ -1,0 +1,27 @@
+html,
+body {
+  background-color: #f8f8f8;
+  color: #323232;
+  max-width: 640px;
+  margin: 20px auto;
+  font-family: "proxima nova", sans-serif;
+}
+
+.logo {
+  max-width: 320px;
+}
+
+p {
+	font-size: 20pt;
+	line-height: 26pt;
+}
+
+a {
+  color: #7a111b;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #68141c;
+  text-decoration: underline;
+}
