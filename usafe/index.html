@@ -1,32 +1,108 @@
 <!DOCTYPE html>
 <html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<head>
+    <title>USafe &middot; Smart campus saftey.</title>
 
-  <meta charset="utf-8">
-  <title>USafe | The New Tricks</title>
+    <meta name="author" content="thenewtricks">
+    <meta name="description" content="Get home safe.">
+    <meta name="keywords" content="college, saftey, app, map, escort, mobile app, reservation, walk, campus,  ">
 
-  <link href="usafe.css" rel="stylesheet">
-</head>
+    <link type="image/x-icon" rel="icon" href="static/images/favicon.png">
+    <link type="text/css" rel="stylesheet" href="static/styles/landing_page.css">
 
-<body>
-  <img class="logo" src="usafe.png" alt="USafe logo">
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-  <h1>The only campus app that gets you home safe.</h1>
-  <h1>USafe was built by students for students.</h1>
+    <!-- TypeKit -->
+    <script type="text/javascript" src="http://use.typekit.net/inf2mxh.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="container2">
+          <hgroup>
+            <h1>USafe</h1>
+          </hgroup>
+        </div>
+      </div>
+    </header>
 
-  <p>
-     Are you looking to be an advocate for the <em>newest</em> platform for campus safety? Sign up for our mailing list to hear when we need your help.
-  </p>
-  <p>
-    If you want to help us test drive new features for our iOS and Android apps, you can even sign up to be a beta tester!
-  </p>
-  <p><a href="http://eepurl.com/MRXyT" alt="Email signup link">Sign up for our mailing list here.</a></p>
-  <p>&lt;3, The New Tricks</p>
-  
-  <!-- Typekit -->
-  <script type="text/javascript" src="//use.typekit.net/xtl4ouc.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-</body>
+    <div class="trusted-bar-top"></div>
+    <section class="product">
+      <div class="container">
+        <div class="container2">
+          <div class="more">
+            <h3>Smart campus safety</h3>
+            <p>
+              USafe partners with your college's escort service so that you get home safe & sound.
+            </p>
+            <a href="http://thenewtricks.us3.list-manage.com/subscribe?u=4b38d3ebff77ffb03496616e2&id=1e4e188926">
+              	<center>Sign Up for Beta Testing</center>
+						</a>
+          </div>
+          <div class="phone">
+            <div class="phoneframe">
+              <div class="slideframe">
+                <div id="slideshow" class="slide">
+                  <img src="images/slide-2.jpg" width="320" height="480" alt="USafe" class="first">
+                  <img src="images/slide-1.jpg" width="320" height="480" alt="USafe">
+                  <img src="images/slide-3.jpg" width="320" height="480" alt="USafe">
+                  <img src="images/slide-4.jpg" width="320" height="480" alt="USafe">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="trusted-bar-bottom"></div>
+    <div class="trusted-bar-top"></div>
 
+    <!-- contact info -->
+    <footer>
+      <div class="container">
+        <div class="copyright">
+          <p>
+            © 2014 thenewtricks LLC.
+          </p>
+        </div>
+        <div class="made_in">
+          <p>
+            Made in Minneapolis, MN
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="scripts/thirdparty/jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="scripts/thirdparty/jquery.cycle.lite-1.7.js"></script>
+    <script type="text/javascript">
+
+    // --- Code to handle slide show ---
+    $(function() {
+      $('#slideshow').cycle();
+    })
+
+
+    // --- Code to handle scrolling ---
+    function scrollMe(id){
+      var offset = $(id).offset().top-50;
+      $('html,body').animate({scrollTop: offset},'slow');
+    };
+
+    jQuery(function($) {
+    $(".get-the-app-scroll").click(
+        function() {
+          scrollMe("#get_app_id");
+          return false;
+        }
+      );
+    });
+    </script>
+  </body>
 </html>
