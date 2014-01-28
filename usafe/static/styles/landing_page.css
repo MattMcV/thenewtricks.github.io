@@ -1,0 +1,248 @@
+/*
+$column: 221px;
+$gutter: 19px;
+$grid-columns: 4;
+*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  color: #3d3d3d;
+  font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  line-height: 40px;
+  min-width: 980px;
+  padding: 0px;
+  margin: 0px; }
+
+div.container {
+  *zoom: 1;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  div.container:before, div.container:after {
+    content: " ";
+    display: table; }
+  div.container:after {
+    clear: both; }
+
+div.fun-bar {
+  background-color: #ffc500;
+  height: 8px; }
+
+div.trusted-bar-top {
+  background-color: #ffcd33;
+  height: 3px;
+  margin: 0; }
+
+div.trusted-bar-bottom {
+
+ }
+
+div.gray-bar-bottom {
+  background-color: silver;
+  height: 5px;
+  margin: 0 0 5px 0; }
+
+header {
+  background: white url("../images/texture-thin-bar.jpg") repeat-x;
+  padding: 0px 0px;
+  text-align: center; }
+  header div.container2 {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 100%; }
+    header div.container2:last-child {
+      margin-right: 0; }
+    header div.container2 h1 {
+      display: block;
+      float: left;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      background: url("../images/logo.png") no-repeat;
+      background-size: 100%;
+      width: 270px;
+      height: 120px;
+      margin: 0 auto;
+      text-indent: -9999px; }
+      header div.container2 h1:last-child {
+        margin-right: 0; }
+    header div.container2 h2 {
+      color: white;
+      font-size: 80px;
+      font-weight: normal;
+      font-style: italic;
+      letter-spacing: -2px; }
+    header div.container2 div.install_button {
+      margin-left: 34.11922%;
+      display: block;
+      float: left;
+      margin-right: 2.35765%;
+      width: 6.17215%;
+      padding-top: 30px;
+      padding-left: 35px;
+      width: 186px;
+      height: 120px; }
+      header div.container2 div.install_button:last-child {
+        margin-right: 0; }
+
+h3 {
+  font-size: 60px; }
+
+section.product {
+  background: white url("../images/map-background.jpg");
+  padding: 40px 0 45px 0; }
+  section.product div.container2 {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 100%; }
+    section.product div.container2:last-child {
+      margin-right: 0; }
+    section.product div.container2 h3 {
+      color: #7a111b;
+      margin-top: 170px;
+      margin-bottom: 40px;
+      line-height: 100%;
+      font-size: 48px; }
+    section.product div.container2 p {
+      font-size: 27px;
+      margin-bottom: 0px; }
+    section.product div.container2 p.app-store {
+      margin-top: 60px; }
+    section.product div.container2 div.more {
+      display: block;
+      float: left;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-top: 30px; }
+      section.product div.container2 div.more:last-child {
+        margin-right: 0; }
+    section.product div.container2 div.phone {
+      display: block;
+      float: left;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 8.5298%; }
+      section.product div.container2 div.phone:last-child {
+        margin-right: 0; }
+      section.product div.container2 div.phone div.phoneframe {
+        background: url("../images/phones.png");
+        width: 475px;
+        height: 748px; }
+        section.product div.container2 div.phone div.phoneframe div.slideframe {
+          display: block;
+          padding-top: 132px;
+          padding-left: 31px; }
+          section.product div.container2 div.phone div.phoneframe div.slideframe #slideshow img {
+            display: none; }
+          section.product div.container2 div.phone div.phoneframe div.slideframe #slideshow img.first {
+            display: block; }
+
+section.video {
+  *zoom: 1;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  section.video:before, section.video:after {
+    content: " ";
+    display: table; }
+  section.video:after {
+    clear: both; }
+  section.video h3 {
+    color: #3db1a8; }
+  section.video div.phone {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 40.29137%; }
+    section.video div.phone:last-child {
+      margin-right: 0; }
+    section.video div.phone div.phoneframe {
+      background: url("../images/iPhone5Black.jpg");
+      width: 387px;
+      height: 802px;
+      margin-bottom: 40px; }
+      section.video div.phone div.phoneframe div.videoframe {
+        display: block;
+        margin: 35px 35px 0px 35px;
+        padding-top: 120px; }
+  section.video div.more {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 57.35098%;
+    margin-top: 264px;
+    padding-left: 62px;
+    font-size: 24px; }
+    section.video div.more:last-child {
+      margin-right: 0; }
+    section.video div.more div.more_desktop {
+      display: block; }
+    section.video div.more div.more_mobile {
+      display: none; }
+  
+.more a {
+	display: block;
+	width: 300px;
+	text-decoration: none;
+	color: white;
+	font-weight: 200;
+	background: #7a111b;
+	padding: 1%;
+	margin-top: 5%;
+	
+}
+
+.more a:hover {
+	background: #ffcd33;
+}
+  
+  
+footer {
+  display: block;
+  float: left;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: #3db1a8 url("../images/texture-thin-bar.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: #cccccc; }
+  footer:last-child {
+    margin-right: 0; }
+  footer ul.sitemap {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    text-align: left;
+    padding: 0; }
+    footer ul.sitemap:last-child {
+      margin-right: 0; }
+  footer ul.sitemap li {
+    display: inline-block;
+    padding: 0 8px; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+  footer a:hover {
+    color: #d9d9d9; }
+  footer div.copyright {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    text-align: center; }
+    footer div.copyright:last-child {
+      margin-right: 0; }
+  footer div.made_in {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    text-align: right; }
+    footer div.made_in:last-child {
+      margin-right: 0; }
